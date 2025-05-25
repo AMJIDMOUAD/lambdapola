@@ -1,0 +1,20 @@
+{
+  "name": "terraform-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "scripts/deploy.sh",
+    "destroy": "scripts/destroy.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.4"
+  }
+}
